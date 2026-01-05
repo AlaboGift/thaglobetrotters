@@ -140,17 +140,17 @@
 
                             <div class="bg-light p-3 rounded mb-4">
                                 <small class="text-muted">
-                                    Start Date: <strong>{{\Carbon\Carbon::parse($package->start_date)->format('jS M, Y')}}</strong> 
-                                        | End Date: <strong>{{\Carbon\Carbon::parse($package->end_date)->format('jS M, Y')}}</strong>
+                                    Start: <strong>{{\Carbon\Carbon::parse($package->start_date)->format('jS M, Y')}}</strong> 
+                                        | End: <strong>{{\Carbon\Carbon::parse($package->end_date)->format('jS M, Y')}}</strong>
                                 </small>
                             </div>
 
                             <div class="mb-4">
                                 <select class="form-select form-select-lg rounded-pill" aria-label="Select travellers">
                                     <option selected>Select Travellers</option>
-                                    <option value="1">1 Adult</option>
-                                    <option value="2">2 Adults</option>
-                                    <option value="3">3 Adults</option>
+                                    @for($i = 1; $i <= 5; $i++)
+                                     <option value="{{$i}}">{{$i}} Adult(s)</option>
+                                    @endfor
                                 </select>
                             </div>
 
