@@ -35,7 +35,7 @@ class Image extends Model
             $name = $this->attributes['name'] ?? 'Guest';
         
             return !is_null($imageUrl) && $imageUrl != 'NULL'
-                ? asset('assets/'.$imageUrl) 
+                ? asset('public/assets/'.$imageUrl) 
                 : 'https://ui-avatars.com/api/?name=' . urlencode($name) . '&color=7F9CF5&background=EBF4FF';
     }
 }

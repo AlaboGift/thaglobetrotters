@@ -27,8 +27,8 @@ class Category extends Model
         $imageUrl = $this->attributes['image_url'] ?? null;
 
         return !is_null($imageUrl) && $imageUrl != 'NULL'
-            ? asset('assets/'.$imageUrl) 
-            : url('/admin/assets/img/elements/default.png');
+            ? asset('public/assets/'.$imageUrl) 
+            : url('public/admin/assets/img/elements/default.png');
     }
 
     public function packages()
