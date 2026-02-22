@@ -231,7 +231,7 @@
             <hr class="text-black-50 footer-divider">
             <div class="container">
                 <div class="row py-3 text-center">
-                    <p>© 2025 Thaglobetrotters. All rights reserved.</p>
+                    <p>© {{ date('Y') }} Thaglobetrotters. All rights reserved.</p>
                 </div>
             </div>
         </div>
