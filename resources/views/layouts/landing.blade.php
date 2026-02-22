@@ -11,20 +11,20 @@
     <meta name="author" content="">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <link rel="icon" type="image/x-icon" href="{{ asset('admin/assets/img/favicon/favicon.ico') }}" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('public/admin/assets/img/favicon/favicon.ico') }}" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('landing/icomoon/icomoon.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/landing/icomoon/icomoon.css') }}">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('landing/css/vendor.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('landing/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/landing/css/vendor.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/landing/style.css') }}">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="{{ asset('admin/assets/vendor/fonts/boxicons.css') }}" />
+    <link rel="stylesheet" href="{{ asset('public/admin/assets/vendor/fonts/boxicons.css') }}" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
@@ -41,7 +41,7 @@
         <div class="container-fluid">
             <div class="main-logo d-lg-none">
                 <a href="{{ url('/') }}">
-                    <img src="{{ asset('assets/img/logo.svg') }}" alt="logo" class="img-fluid">
+                    <img src="{{ asset('public/assets/img/logo.svg') }}" alt="logo" class="img-fluid">
                 </a>
             </div>
 
@@ -61,7 +61,7 @@
                 <div class="offcanvas-body justify-content-between">
                     <div class="main-logo">
                         <a href="{{ url('/') }}">
-                            <img src="{{ asset('assets/img/logo.svg') }}" alt="logo" class="img-fluid">
+                            <img src="{{ asset('public/assets/img/logo.svg') }}" alt="logo" class="img-fluid">
                         </a>
                     </div>
 
@@ -136,7 +136,7 @@
                     <div class="footer-menu">
                         <div>
                             <a href="{{ url('/') }}">
-                                <img src="{{ asset('assets/img/logo-light.svg') }}" alt="logo"
+                                <img src="{{ asset('public/assets/img/logo-light.svg') }}" alt="logo"
                                     class="img-fluid">
                             </a>
                             <p class="sub-header">
@@ -147,31 +147,31 @@
                             <ul class="d-flex list-unstyled ">
                                 <li class="me-4">
                                     <a href="#">
-                                        <img src="{{ asset('assets/img/fb-icon.svg') }}" alt="fb-logo"
+                                        <img src="{{ asset('public/assets/img/fb-icon.svg') }}" alt="fb-logo"
                                             class="img-fluid">
                                     </a>
                                 </li>
                                 <li class="me-4">
                                     <a href="#">
-                                        <img src="{{ asset('assets/img/twitter-icon.svg') }}" alt="twitter-logo"
+                                        <img src="{{ asset('public/assets/img/twitter-icon.svg') }}" alt="twitter-logo"
                                             class="img-fluid">
                                     </a>
                                 </li>
                                 <li class="me-4">
                                     <a href="#">
-                                        <img src="{{ asset('assets/img/instagram-icon.svg') }}" alt="instagram-logo"
+                                        <img src="{{ asset('public/assets/img/instagram-icon.svg') }}" alt="instagram-logo"
                                             class="img-fluid">
                                     </a>
                                 </li>
                                 <li class="me-4">
                                     <a href="#">
-                                        <img src="{{ asset('assets/img/email-icon.svg') }}" alt="email-logo"
+                                        <img src="{{ asset('public/assets/img/email-icon.svg') }}" alt="email-logo"
                                             class="img-fluid">
                                     </a>
                                 </li>
                                 {{-- <li class="me-4">
                                     <a href="#">
-                                        <img src="{{ asset('assets/img/youtube-icon.svg') }}" alt="youtube-logo" class="img-fluid">
+                                        <img src="{{ asset('public/assets/img/youtube-icon.svg') }}" alt="youtube-logo" class="img-fluid">
                                     </a>
                                 </li> --}}
                             </ul>
@@ -242,13 +242,13 @@
         </div>
     </footer>
 
-    <script src="{{ asset('landing/js/jquery-1.11.0.min.js') }}"></script>
+    <script src="{{ asset('public/landing/js/jquery-1.11.0.min.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
     </script>
-    <script src="{{ asset('landing/js/plugins.js') }}"></script>
-    <script src="{{ asset('landing/js/script.js') }}"></script>
+    <script src="{{ asset('public/landing/js/plugins.js') }}"></script>
+    <script src="{{ asset('public/landing/js/script.js') }}"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
 
